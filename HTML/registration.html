@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/form.css" type="text/css" media="screen">
+    <title>Школьный портал - Регистрация</title>
+</head>
+<body>
+    <div class="block">
+        <form action="action_page.php">
+            <div class="container">
+                <h1>Регистрация</h1>
+                <p>Создавай. Давай-давай!</p>
+                <hr>
+                <label for="name"><b>Имя</b></label>
+                <input type="text" placeholder="Иван" name="name" required>
+
+                <label for="surname"><b>Фамилия</b></label>
+                <input type="text" placeholder="Палыч" name="surname" required>
+
+                <label for="patronymic"><b>Отчество</b></label>
+                <input type="text" placeholder="Терентьев" name="patronymic" required>
+                <hr>
+
+                <label for="login"><b>Логин</b></label>
+                <input type="text" placeholder="Логин" name="login" required>
+                <hr>
+            
+                <label for="email"><b>Почта</b></label>
+                <input type="text" placeholder="Электронная почта" name="email" required>
+            
+                <label for="psw"><b>Пароль</b></label>
+                <input type="password" placeholder="Введите пароль" name="psw" required>
+            
+                <label for="psw-repeat"><b>Повторите пароль</b></label>
+                <input type="password" placeholder="Повторите пароль" name="psw-repeat" required>
+                <hr>
+            
+                <button type="submit" class="btn">Зарегистрироваться</button>
+            </div>
+        
+            <div class="container signin">
+                <p>У вас уже есть аккаунт? <a href="autorization.html">Зайдите</a>.</p>
+                </p>Или вернуться <a href="index.html">на главную</a>?</p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
